@@ -1,4 +1,6 @@
-# Abstract
+# AI for Blood Cell Identification
+
+## Abstract
 Blood cell identification is critical in medical diagnostics, particularly for understanding diseases affecting the blood.
 
 This project focuses on the classification of different types of blood cell images into eight distinct categories using neural networks and deep learning techniques. 
@@ -10,17 +12,17 @@ Additionally, other dataset augmentation techniques were applied using keras-cv 
 
 In the end, also test time augmentation techinques were employed to improve the accuracy.
 
-# Context
+## Context
 This project is an AI-based solution developed for blood cell identification as part of a competition. The goal was to accurately classify various types of blood cells from images. 
 The project utilizes deep learning models and image processing to achieve high classification accuracy. 
 
 We are proud to have ranked in the top 5 of the competition, demonstrating the effectiveness of the solution.
 
-# Repository Structure
+## Repository Structure
 * [Report](Report.pdf)
   contains a deeper description of the problem and a detailed explanation of the methodologies.
-* [Code/]
-  - **1_dataset_augmentation** contains code for augmenting the dataset by applying various               transformations (e.g., rotation, flipping, scaling) to the images.
-  - **2_model_training** is responsible for training the AI model. It loads the augmented dataset,        sets up the deep learning architecture, and trains the model using the appropriate loss           function and optimization technique.
-  - **3_zip_for_submission** zip is used to format the model and weights in order to easily submit        results to the competition platform.
+* **`Code/`**  
+  - **`1_dataset_augmentation`** contains code for augmenting the dataset by applying various transformations (e.g., rotation, flipping, scaling) to the images.
+  - **`2_model_training`** is responsible for training the AI model. It loads the augmented dataset, sets up the deep learning architecture, and trains the model using the appropriate loss function and optimization     technique.
+  - **`3_zip_for_submission`** zip is used to format the model and weights in order to easily submit results to the competition platform.
 
