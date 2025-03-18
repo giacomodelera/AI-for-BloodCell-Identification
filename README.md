@@ -22,7 +22,7 @@ We are proud to have ranked in the top 5 of the competition, demonstrating the e
 * [Report](Report.pdf)
   contains a deeper description of the problem and a detailed explanation of the methodologies.
 * **`Code/`**  
-  - **`1_dataset_augmentation`** contains code for augmenting the dataset by applying various transformations (e.g., rotation, flipping, scaling) to the images.
-  - **`2_model_training`** is responsible for training the AI model. It loads the augmented dataset, sets up the deep learning architecture, and trains the model using the appropriate loss function and optimization     technique.
-  - **`3_zip_for_submission`** is used to format the model and weights in order to easily submit results to the competition platform.
+  **`1_dataset_augmentation`** contains code for augmenting the dataset by applying various transformations (e.g., rotation, flipping, scaling) to the images.
+  **`2_model_training`** is responsible for training the AI model. It loads the augmented dataset, sets up the deep learning architecture, and trains the model using the appropriate loss function and optimization     technique.
+  **`3_zip_for_submission`** is used to format the model and weights in order to easily submit results to the competition platform.
 
